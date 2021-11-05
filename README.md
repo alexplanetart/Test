@@ -16,7 +16,8 @@
 为了更好的满足 选择一张或者多张图片 以及 半屏显示图片选择页面 的需求， 保持自定义View包含Fragment这种方式 不变
 同时内部继承滤镜功能
 整体结构请见 https://www.processon.com/view/link/618486d25653bb14c261c093
-![image](https://user-images.githubusercontent.com/93108740/140450769-7ca7b53f-5203-43de-8734-25054a8f9bcd.png)
+![image](https://user-images.githubusercontent.com/93108740/140452189-8a54fce7-1e66-4035-b086-d1646e199517.png)
+
 
 
 
@@ -41,7 +42,8 @@
 6. Drive
 
 所有页面共同的行为如下:https://www.processon.com/view/link/61848b3d7d9c0828a1533c7f
-![image](https://user-images.githubusercontent.com/93108740/140443818-93775506-5267-47bd-8347-e74be49fc538.png)
+![image](https://user-images.githubusercontent.com/93108740/140452277-ed116639-5268-4046-8a67-c2fbe137c32f.png)
+
 
 
 ## GooglePhoto
@@ -54,5 +56,5 @@
 
 请见 https://www.processon.com/view/link/61849c800e3e744a77ca5c81
 
-![image](https://user-images.githubusercontent.com/93108740/140450502-b42e8cf9-a6b4-4201-b431-41a6d3f04447.png)
+![image](https://user-images.githubusercontent.com/93108740/140452334-70483241-1b1a-424d-b237-67e173013a0d.png)
 

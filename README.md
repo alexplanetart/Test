@@ -40,3 +40,14 @@
 所有页面共同的行为如下:https://www.processon.com/view/link/61848b3d7d9c0828a1533c7f
 ![image](https://user-images.githubusercontent.com/93108740/140443818-93775506-5267-47bd-8347-e74be49fc538.png)
 
+
+## GooglePhoto
+1. GooglePhoto页面除了实现基类 BasePhotoFragment定义的行为之外，其他所有行为都在内部实现（比如数据展示，多级目录展示，选中图片时链接过期问题处理，加载更多逻辑，更新图片选中状态 等）
+2. GooglePhoto中的图片数据有对应的数据类型 GooglePhotoBean， 使用时通过扩展方法 转成UI层需要的Photo类型
+3. 页面整体结构 UI(Activity/Fragment)--->ViewModel--->Repository
+4. GooglePhoto页面图片列表 使用对应的适配器GooglePhotoAdapter
+
+请见 https://www.processon.com/view/link/61849c800e3e744a77ca5c81
+
+![image](https://user-images.githubusercontent.com/93108740/140450502-b42e8cf9-a6b4-4201-b431-41a6d3f04447.png)
+

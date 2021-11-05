@@ -3,6 +3,7 @@
 1. 基类SelectPhotoFragment 及 PhotoAlbumRecycleViewAdapter 定义的共有行为过多 优点：方便增加新的图片选择页面  缺点：页面功能扩展困难（比如增加分页或者修改图片显示方式）
 2. 数据请求都是用AsyncTask实现
 3. 无分页功能
+4. 每个调用图片选择页面的地方都需要实现滤镜功能
 
 
 ## 功能需求
@@ -13,6 +14,7 @@
 5.  分页加载功能
 
 为了更好的满足 选择一张或者多张图片 以及 半屏显示图片选择页面 的需求， 保持自定义View包含Fragment这种方式 不变
+同时内部继承滤镜功能
 整体结构请见 https://www.processon.com/view/link/618486d25653bb14c261c093
 ![image](https://user-images.githubusercontent.com/93108740/140450769-7ca7b53f-5203-43de-8734-25054a8f9bcd.png)
 
@@ -47,6 +49,7 @@
 2. GooglePhoto中的图片数据有对应的数据类型 GooglePhotoBean， 使用时通过扩展方法 转成UI层需要的Photo类型
 3. 页面整体结构 UI(Activity/Fragment)--->ViewModel--->Repository
 4. GooglePhoto页面图片列表 使用对应的适配器GooglePhotoAdapter
+5. 数据请求方法使用Kotlin Coroutines
 
 请见 https://www.processon.com/view/link/61849c800e3e744a77ca5c81
 

@@ -14,7 +14,8 @@
 
 为了更好的满足 选择一张或者多张图片 以及 半屏显示图片选择页面 的需求， 保持自定义View包含Fragment这种方式 不变
 整体结构请见 https://www.processon.com/view/link/618486d25653bb14c261c093
-![image](https://user-images.githubusercontent.com/93108740/140440511-a50098ea-e025-49bd-8a0c-25308022f94c.png)
+![image](https://user-images.githubusercontent.com/93108740/140450769-7ca7b53f-5203-43de-8734-25054a8f9bcd.png)
+
 
 
 ## 自定义View SelectPhotoBottomView

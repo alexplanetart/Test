@@ -28,7 +28,7 @@
 
 具体请见 https://www.processon.com/view/link/6184867a1efad40ab183de0c
 
-![image](https://user-images.githubusercontent.com/93108740/140442688-a0e30994-591b-47ca-b49a-67acb3812f24.png)
+![image](https://user-images.githubusercontent.com/93108740/140451889-639ceb18-165c-4a47-9bd1-74ada7355fce.png)
 
 
 ## 图片选择页面

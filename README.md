@@ -50,6 +50,7 @@
 3. 页面整体结构 UI(Activity/Fragment)--->ViewModel--->Repository
 4. GooglePhoto页面图片列表 使用对应的适配器GooglePhotoAdapter
 5. 数据请求方法使用Kotlin Coroutines
+6. 加载更多使用 https://github.com/CymChad/BaseRecyclerViewAdapterHelper http://www.recyclerview.org/
 
 请见 https://www.processon.com/view/link/61849c800e3e744a77ca5c81
 

@@ -14,7 +14,7 @@
 5.  分页加载功能
 
 为了更好的满足 选择一张或者多张图片 以及 半屏显示图片选择页面 的需求， 保持自定义View包含Fragment这种方式 不变
-同时内部继承滤镜功能
+同时内部集成滤镜功能
 整体结构请见 https://www.processon.com/view/link/618486d25653bb14c261c093
 ![image](https://user-images.githubusercontent.com/93108740/140452189-8a54fce7-1e66-4035-b086-d1646e199517.png)
 
